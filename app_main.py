@@ -11,7 +11,7 @@ oracle = pipeline("question-answering", model="deepset/roberta-base-squad2")
 theta = SentenceTransformer("mixedbread-ai/mxbai-embed-large-v1")
 
 # Recurring global valueholders
-file_name_counter = 1
+file_name_counter = 0
 temp_dir = None
 temp_file_path = None
 text = None
